@@ -1,6 +1,7 @@
 using MNIST
-
-if VERSION >= v"0.5-"
+if VERSION >= v"0.7-"
+	using Test
+elseif VERSION >= v"0.5-"
     using Base.Test
 else
     using BaseTestNext
